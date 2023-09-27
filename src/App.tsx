@@ -1,10 +1,12 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { InputUrl } from "./components/Example/inputUrl";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+    <div>
+      <InputUrl />{" "}
+    </div>
     </>
   );
 }
